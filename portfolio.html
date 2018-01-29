@@ -10,24 +10,18 @@
 	<title>Bootstrap-Portfolio</title>
 </head>
 
+
 <body>
 	<!-- Navbar -->
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-				 aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Christopher Lloyd</a>
-			</div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="container nav">
+				<div class="nav navbar-header">
+
+					<a class="navbar-nav brand" href="#">Christopher Lloyd</a>
+				</div>
+
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<a href="index.html">About</a>
@@ -40,49 +34,50 @@
 					</li>
 				</ul>
 			</div>
-			<!-- /.navbar-collapse -->
 		</div>
-		<!-- /.container-fluid -->
 	</nav>
-	<!-- End Navbar -->
+	<!-- Navbar End -->
+
 	<!-- Page Header -->
 	<div class="container">
 		<!-- Row Begins -->
 		<div class="row">
-			<div class="col-sm-8 header">
+			<div class="col-sm-12 col-md-8 header">
 				<div class="page-header">
 					<h1>Portfolio </h1>
 				</div>
-				<div class="row">
-					<div class="col-sm-3">
+				<div class="row main-portfolio">
+					<div class="">
 						<div class="banner-position special">
 							<div class="photo-banner">Dog Toys</div>
-							<img id="placeholder-image" src="./assets/images/dog-toy-corgi.jpg" alt="Dog Toys" width="220px" height="200px">
+							<img class="placeholder-image" src="./assets/images/dog-toy-corgi.jpg" alt="Dog Toys" width="220px" height="200px">
 						</div>
 						<div class="banner-position">
 							<div class="photo-banner">Dog Hats</div>
-							<img id="placeholder-image" src="./assets/images/dog-hat.jpg" alt="Dog Toys" width="220px" height="200px">
+							<img class="placeholder-image" src="./assets/images/dog-hat.jpg" alt="Dog Toys" width="220px" height="200px">
 						</div>
 						<div class="banner-position special">
 							<div class="photo-banner">Max Derps</div>
-							<img id="placeholder-image" src="./assets/images/herpderp.jpg" alt="Dog Toys" width="220px" height="200px">
+							<img class="placeholder-image" src="./assets/images/herpderp.jpg" alt="Dog Toys" width="220px" height="200px">
 						</div>
 						<div class="banner-position">
 							<div class="photo-banner">Doge Lolz</div>
-							<img id="placeholder-image" src="./assets/images/corgi-smile.jpg" alt="Dog Toys" width="220px" height="200px">
+							<img class="placeholder-image" src="./assets/images/corgi-smile.jpg" alt="Dog Toys" width="220px" height="200px">
 						</div>
 						<div class="banner-position special">
 							<div class="photo-banner">Stuffed Doggos</div>
-							<img id="placeholder-image" src="./assets/images/stuffed.jpg" alt="Dog Toys" width="220px" height="200px">
+							<img class="placeholder-image" src="./assets/images/stuffed.jpg" alt="Dog Toys" width="220px" height="200px">
 						</div>
 					</div>
+					<!-- Main End -->
 				</div>
+				<!-- Row End -->
 			</div>
 			<!-- Sidebar -->
-			<div class="col-sm-3">
+			<div class="col-sm-12 col-md-4">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h3 class="panel-title">Connect With Me</h3>
+						<h3 class="panel-title text-center">Connect With Me</h3>
 					</div>
 					<div class="panel-body">
 						<a href="https://iwafflesi.github.io/" target="_blank">
@@ -99,9 +94,16 @@
 			</div>
 			<!-- Sidebar End -->
 		</div>
-		<!-- Row Ends -->
+		<!-- Row End -->
 	</div>
-	</div>
+
+	<!-- Footer -->
+	<footer class="footer navbar navbar-fixed-bottom">
+		<div class="container">
+			<span class="navbar-fixed-bottom">Copyright © 2018 Christopher Lloyd</span>
+		</div>
+	</footer>
+	<!-- Footer End -->
 
 </body>
 

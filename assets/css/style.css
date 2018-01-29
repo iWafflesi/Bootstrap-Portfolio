@@ -6,6 +6,8 @@ body {
 .header {
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .panel-title {
@@ -19,6 +21,7 @@ h1 {
 
 .panel {
 	border-radius: unset;
+	margin-bottom: 100px;
 }
 
 .panel-default .panel-heading {
@@ -32,159 +35,65 @@ h1 {
 .navbar-default {
 	background-color: #ffffff;
 	border-bottom: 3px solid #cccccc;
-
 }
 
-.navbar-default .navbar-brand {
+.navbar-default brand {
 	color: #ffffff;
+	background-color: #4aaaa5;
 }
 
 .navbar-header {
 	background-color: #4aaaa5;
 }
 
-.navbar-brand {
+.brand {
 	font-size: 25px;
 	color: #ffffff;
+	padding: 10px 25px 10px 25px;
+	pointer-events: none;
+
 }
 
 .icons {
 	margin: 4px
 }
 
-.waffles {
-	
+p {
+	margin: 0px 30px 20px 20px;
 }
 
-.row {
-/* display: flex;
-justify-content: center; */
+.panel-body{
+display: flex;
+justify-content: center;
 }
 
-
-
-/* 
-nav {
-	height: 100px;
-	border-bottom: 2px solid #cccccc;
-	background: #ffffff;
-	font-family: 'Georgia', Times, Times 'New Roman', serif;
-	display: flex;
-	justify-content: center;
-}
-
-.navbar-brand {
-	padding: 0px 20px 0px 20px;
-	line-height: 90px;
-	margin: 1px;
-	margin-right: 330px; 
-	float: left;
-	font-size: 40px;
-	font-weight: bold;
-	height: 99%;
-	background-color: #4aaaa5;
+.footer { 
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 20px solid #4aaaa5;
+	height: 35px;
+	text-align: center;
+	background-color: #666666;
 	color: #ffffff;
+	padding-top: 40px;
 }
 
-.navbar-nav {
-	margin-top: 40px;
-	height: 20px;
-	display: flex;
-	justify-content: center;
-}
-
-.Buttons {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	padding-right: 20px;
-	margin-right: 20px;
-	margin-top: 40px;
-	font-size: 20px;
-	color:#777777;
-	border-right: 1px solid #cccccc;
-	text-decoration: none;
-}
-
-.Buttons3 {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	float: right;
-	font-size: 20px;
-	margin-top: 40px;
-	color:#777777;
-	text-decoration: none;
+.nav {
+	padding-left: 0px;
 }
 
 
-#main {
-	padding: 30px;
-	margin-top: 50px;
-	background: #ffffff;
-	height: 460px;
-	width: 590px;
-	border: 1px solid #dddddd;
-	margin-bottom: 250px;
-}
-
-#main1 {
-	padding: 30px;
-	margin-top: 50px;
-	background: #ffffff;
-	height: 800px;
-	width: 590px;
-	border: 1px solid #dddddd;
-	margin-bottom: 150px;
-}
-
-#main2 {
-	padding: 30px;
-	margin-top: 50px;
-	background: #ffffff;
-	height: 600px;
-	width: 590px;
-	border: 1px solid #dddddd;
-	margin-bottom: 150px;
-}
-
-label {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-	font-size: 22px;
-	
-}
-
-#about-me {
-	font-family: 'Georgia', Times, Times 'New Roman', serif;
-	font-size: 35px;
-	padding-bottom: 20px;
-	font-weight: bold;
-	color: #4aaaa5;
-	margin-bottom: 25px;
-	border-bottom: 3px solid #cccccc;
-}
-
-
-#profile-picture {
-	float: left;
-	padding-right: 20px;
-}
-
-.banner-position {
-	float: left;
-}
-
-.special {
-	margin-left: 35px;
-}
-
-#placeholder-image {
-	padding: 20px;
+.placeholder-image {
+	margin: 20px;
 }
 
 .photo-banner {
 	font-size: 20px;
 	text-align: center;
-	padding-top: 5px;
+	/* padding-top: 5px; */
 	color: #ffffff;
-	height: 25px;
+	/* height: 25px; */
 	width: 220px;
 	background: #4aaaa5;
 	position: absolute;
@@ -193,19 +102,13 @@ label {
 	font-family: 'Georgia', Times, Times 'New Roman', serif;
 }
 
-.paragraph {
-	color:#777777;
-	font-size: 19px;
-	line-height: 150%;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+.main-portfolio {
+padding-left: 15%;
+margin-bottom: 50px;
 }
 
-.paragraph2 {
-	color:#777777;
-	font-size: 19px;
-	line-height: 150%;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	text-decoration: none;
+.banner-position {
+	float: left;
 }
 
 input[type=text], select, textarea {
@@ -234,48 +137,7 @@ input[type=submit]:hover {
 	background-color: #5bd1cb;
 }
 
-#sidebar {
-	margin-top: 100px;
-	margin-left: 40px;
-	background: #ffffff;
-	height: 200px;
-	width: 230px;
-	padding: 0px 20px 0px 20px;
-	border: 1px solid #dddddd;
+form {
+	margin: 20px;
 }
 
-#connectwithme {
-	font-family: 'Georgia', Times, Times 'New Roman', serif;
-	font-size: 25px;
-	margin-top: 25px;;
-	height: 30px;
-	padding-bottom: 15px;
-	font-weight: bold;
-	color: #4aaaa5;
-	margin-bottom: 20px;
-	border-bottom: 2px solid #cccccc;
-	display: flex;
-	justify-content: center;
-}
-
-#navlink {
-	display: flex;
-	justify-content: center;
-	height: 20px;
-	width: 100%;
-}
-
-
-footer { 
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	border-top: 20px solid #4aaaa5;
-	height: 35px;
-	text-align: center;
-	background-color: #666666;
-	display: flex;
-	justify-content: center;
-	color: #ffffff;
-	padding-top: 40px;
-} */
