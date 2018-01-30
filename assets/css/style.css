@@ -77,10 +77,12 @@ justify-content: center;
 	background-color: #666666;
 	color: #ffffff;
 	padding-top: 40px;
+	margin-top: -35px;
 }
 
 .nav {
 	padding-left: 0px;
+	padding-right: 0;
 }
 
 
@@ -111,6 +113,7 @@ margin-bottom: 50px;
 
 .banner-position {
 	float: left;
+	padding-left: 0;
 }
 
 input[type=text], select, textarea {
@@ -142,4 +145,5 @@ input[type=submit]:hover {
 form {
 	margin: 20px;
 }
+
 

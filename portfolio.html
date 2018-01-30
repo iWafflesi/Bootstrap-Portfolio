@@ -42,32 +42,41 @@
 	<div class="container">
 		<!-- Row Begins -->
 		<div class="row">
-			<div class="col-sm-12 col-md-8 header">
+			<div class="col-sm-12 col-md-8 col-lg-8 header">
 				<div class="page-header">
 					<h1>Portfolio </h1>
 				</div>
-				<div class="row main-portfolio">
-					<div class="">
-						<!-- I tried changing my images to grow and shrink with the page but the banners no longer attach to them properly. I ended up leaving the code in placeholder-image that i used to make them responsive, which works but it made things ugly. i also tried using img-responsive in the class -->
-						<div class="banner-position">
-							<div class="photo-banner">Dog Toys</div>
-							<img class="placeholder-image" src="./assets/images/dog-toy-corgi.jpg" alt="Dog Toys" width="220px" height="200px">
+				<div class="row">
+					<div class="main-portfolio">
+						<!-- I tried changing my images to grow and shrink with the page but the banners no longer attach to them properly. I ended up leaving the code commented out in placeholder-image in the css to make them responsive, which works but it made things ugly. I also tried using img-responsive in the class which works when you shrink the page down really small. -->
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-12 banner-position">
+								<div class="photo-banner">Dog Toys</div>
+								<img class="placeholder-image img-responsive" src="./assets/images/dog-toy-corgi.jpg" alt="Dog Toys">
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12 banner-position">
+								<div class="photo-banner">Dog Hats</div>
+								<img class="placeholder-image img-responsive" src="./assets/images/dog-hat.jpg" alt="Dog Toys">
+							</div>
+							
 						</div>
-						<div class="banner-position">
-							<div class="photo-banner">Dog Hats</div>
-							<img class="placeholder-image" src="./assets/images/dog-hat.jpg" alt="Dog Toys" width="220px" height="200px">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-12 banner-position">
+								<div class="photo-banner">Max Derps</div>
+								<img class="placeholder-image img-responsive" src="./assets/images/herpderp.jpg" alt="Dog Toys">
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12 banner-position">
+								<div class="photo-banner">Doge Lolz</div>
+								<img class="placeholder-image img-responsive" src="./assets/images/corgi-smile.jpg" alt="Dog Toys">
+							</div>
+
 						</div>
-						<div class="banner-position">
-							<div class="photo-banner">Max Derps</div>
-							<img class="placeholder-image" src="./assets/images/herpderp.jpg" alt="Dog Toys" width="220px" height="200px">
-						</div>
-						<div class="banner-position">
-							<div class="photo-banner">Doge Lolz</div>
-							<img class="placeholder-image" src="./assets/images/corgi-smile.jpg" alt="Dog Toys" width="220px" height="200px">
-						</div>
-						<div class="banner-position">
-							<div class="photo-banner">Stuffed Doggos</div>
-							<img class="placeholder-image" src="./assets/images/stuffed.jpg" alt="Dog Toys" width="220px" height="200px">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-12 banner-position">
+								<div class="photo-banner">Stuffed Doggos</div>
+								<img class="placeholder-image img-responsive" src="./assets/images/stuffed.jpg" alt="Dog Toys">
+							</div>
+
 						</div>
 					</div>
 					<!-- Col End -->
@@ -75,7 +84,7 @@
 				<!-- Row End -->
 			</div>
 			<!-- Sidebar -->
-			<div class="col-sm-12 col-md-4">
+			<div class="col-sm-12 col-md-4 col-lg-4">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h3 class="panel-title text-center">Connect With Me</h3>
